@@ -1,14 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root {
-  --background: #121212; /* Matches your Canva design */
+  --background: #121212;
   --foreground: #ffffff;
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  -webkit-font-smoothing: antialiased;
-}
+/* ... keep the rest of your body styles below ... */
